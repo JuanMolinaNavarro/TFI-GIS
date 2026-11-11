@@ -1,0 +1,126 @@
+{
+  "titulo": "Geoempowering Design",
+  "subtitulo": "Geodiseño para el Río Salí, Tucumán",
+  "bajada": "Del análisis del territorio al diseño de un corredor ecológico",
+  "ensayo": [
+    {
+      "idea": "Geodiseño",
+      "texto": "Une el análisis espacial del GIS con los métodos creativos del diseño. Primero se entiende cómo es y cómo funciona un lugar; después se proyecta cómo podría ser.",
+      "autor": "T. Fisher"
+    },
+    {
+      "idea": "El GIS como plataforma",
+      "texto": "El GIS es la plataforma que integra la ciencia: reúne en un mismo mapa lo que se sabe de un lugar. Ese es el medio práctico que le da poder al diseño.",
+      "autor": "J. Dangermond"
+    },
+    {
+      "idea": "Infraestructura ecológica",
+      "texto": "En lugar de hormigón y caños, el agua se retiene y se filtra en humedales en terrazas. Lo que históricamente se inundaba se deja inundar.",
+      "autor": "K. Yu"
+    },
+    {
+      "idea": "La naturaleza como mentora",
+      "texto": "La biomímesis toma a los ecosistemas como modelo: una ciudad que funcione como un bosque. Para lograrlo hacen falta métricas de desempeño ecológico.",
+      "autor": "J. Benyus"
+    }
+  ],
+  "cita": {
+    "texto": "GIS helps us understand what is and design what could be.",
+    "traduccion": "El GIS ayuda a entender lo que es y a diseñar lo que podría ser.",
+    "autor": "Thomas Fisher, Geodesign Summit 2014"
+  },
+  "shuicheng": [
+    "Kongjian Yu (Turenscape) usa GIS para modelar el relieve antes de diseñar.",
+    "En Liupanshui (China) el río Shuicheng estaba contaminado y encauzado entre terraplenes de hormigón.",
+    "Se retiró el hormigón, se dejó crecer vegetación natural y el agua de lluvia volvió al río por humedales en terrazas. Hoy es un humedal nacional."
+  ],
+  "paralelo": [
+    {
+      "shuicheng": "Río urbano contaminado",
+      "sali": "Recibe residuos de ingenios, destilerías y efluentes cloacales"
+    },
+    {
+      "shuicheng": "Encauzado entre terraplenes de hormigón",
+      "sali": "Ribera fragmentada: parte edificada, parte cultivada"
+    },
+    {
+      "shuicheng": "Solución: humedales en terrazas y vegetación natural",
+      "sali": "Propuesta: bosque de ribera continuo y humedales en el terreno bajo"
+    }
+  ],
+  "datos_sali": [
+    {
+      "texto": "La cuenca Salí-Dulce abarca unos 57.000 km² en cinco provincias y en ella viven cerca de 2,5 millones de personas.",
+      "fuente": "Argentina.gob.ar, Cuenca del Río Salí Dulce",
+      "url": "https://www.argentina.gob.ar/ambiente/agua/cuencas/salidulce"
+    },
+    {
+      "texto": "Al río llegan residuos de la industria azucarera y de las destilerías de alcohol, además de residuos urbanos y cloacales.",
+      "fuente": "Argentina.gob.ar, Cuenca del Río Salí Dulce",
+      "url": "https://www.argentina.gob.ar/ambiente/agua/cuencas/salidulce"
+    },
+    {
+      "texto": "El agua con alta carga de materia orgánica provocó mortandades masivas de peces y proliferación de algas en el embalse de Río Hondo.",
+      "fuente": "Argentina.gob.ar, Cuenca del Río Salí Dulce",
+      "url": "https://www.argentina.gob.ar/ambiente/agua/cuencas/salidulce"
+    },
+    {
+      "texto": "Por cada litro de alcohol que se produce se generan 10 litros de vinaza.",
+      "fuente": "La Gaceta, 23/03/2019",
+      "url": "https://www.lagaceta.com.ar/nota/801336/actualidad/ponen-lupa-sobre-ingenios-para-evitar-contaminacion.html"
+    },
+    {
+      "texto": "En 2007 las provincias y la Nación acordaron crear el Comité Interjurisdiccional de la Cuenca del Río Salí Dulce.",
+      "fuente": "Argentina.gob.ar, Cuenca del Río Salí Dulce",
+      "url": "https://www.argentina.gob.ar/ambiente/agua/cuencas/salidulce"
+    }
+  ],
+  "limites": [
+    "El mapa de altura sobre el cauce es un indicador topográfico, no un modelo hidráulico de inundación.",
+    "La propuesta es un ejercicio académico de geodiseño, no un proyecto de obra.",
+    "Los datos tienen 10 y 30 m de resolución y el modelo de elevación es de superficie: sirven a escala de corredor, no de parcela.",
+    "Las hectáreas son superficie apta según la regla, no terreno disponible."
+  ],
+  "aporte_gis": [
+    "Integra cobertura, relieve, río y calles en una sola grilla comparable.",
+    "Convierte una idea de diseño en una regla explícita que cualquiera puede revisar y cambiar.",
+    "Mide el resultado: hectáreas por zona y accesos, listos para discutir."
+  ],
+  "preguntas_previsibles": [
+    {
+      "pregunta": "¿Por qué el mapa 3 no es un mapa de inundación?",
+      "respuesta": "Porque solo compara la cota de cada punto con la del tramo de río más cercano. No simula caudales, lluvias ni defensas. Además el modelo de elevación es de superficie: incluye copas de árboles y techos. Sirve para ver dónde el terreno es bajo, no para decir cuánta agua llega."
+    },
+    {
+      "pregunta": "¿De dónde salen los 2 m y los 100 m?",
+      "respuesta": "Son decisiones de diseño, no valores normativos. Probamos 1, 2 y 3 m y elegimos el valor intermedio: con 3 m la superficie de humedal más que se duplica. Los 100 m de bosque son un ancho de referencia para una franja continua, medidos desde el eje del río. Lo que más pesa no es el umbral sino cómo se toma la cota del río: lo decimos en el mapa 3. Cambiar cualquiera de esos valores es editar un número y volver a correr el análisis."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre GIS y geodiseño?",
+      "respuesta": "El GIS describe y analiza lo que existe. El geodiseño usa ese análisis para proponer un cambio y medir su efecto. Los mapas 1 a 3 son GIS; el mapa 4 es geodiseño."
+    },
+    {
+      "pregunta": "¿Qué haría falta para pasar a un proyecto real?",
+      "respuesta": "Un modelo de elevación de mayor detalle, un estudio hidráulico, datos de calidad de agua por tramo, la situación de dominio de las tierras y la participación de los vecinos y del Comité de Cuenca."
+    },
+    {
+      "pregunta": "¿Las hectáreas de bosque y de humedal son terreno libre?",
+      "respuesta": "No. Son superficie apta según la regla. Del corredor de bosque, la mayor parte ya está arbolada y el resto habría que restaurarlo. En el humedal también hay cultivos y árboles. Es un techo para discutir, no un plan de expropiación."
+    },
+    {
+      "pregunta": "¿Qué datos y herramientas usaron?",
+      "respuesta": "Datos abiertos: IGN, OpenStreetMap, ESA WorldCover de 10 m, Copernicus DEM de 30 m e HydroBASINS. Todo se procesó con Python (geopandas y rasterio) en POSGAR 2007, faja 3, y se puede reproducir de punta a punta."
+    }
+  ],
+  "referencias": [
+    "Esri (2014). Geoempowering Design. Essays on Geography and GIS, vol. 7, pp. 48-51.",
+    "Argentina.gob.ar. Cuenca del Río Salí Dulce. argentina.gob.ar/ambiente/agua/cuencas/salidulce",
+    "La Gaceta (23/03/2019). Ponen la lupa sobre los ingenios para evitar contaminación.",
+    "Instituto Geográfico Nacional (IGN). Capas SIG, servicio WFS.",
+    "Colaboradores de OpenStreetMap. Datos bajo licencia ODbL.",
+    "Zanaga et al. (2022). ESA WorldCover 10 m 2021 v200.",
+    "ESA. Copernicus DEM GLO-30.",
+    "Lehner y Grill (2013). HydroBASINS, HydroSHEDS."
+  ],
+  "titulo_caso": "El Salí, un río contaminado que atraviesa la mayor ciudad de la provincia"
+}

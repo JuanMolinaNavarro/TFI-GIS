@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>{{titulo}}</title>
+<link rel="stylesheet" href="poster.css">
+</head>
+<body>
+<main class="poster">
+
+  <header class="cabecera">
+    <div>
+      <h1>{{titulo}}</h1>
+      <p class="subtitulo">{{subtitulo}}</p>
+    </div>
+    <blockquote class="cita">
+      <p class="traduccion">«{{cita_traduccion}}»</p>
+      <p class="original">“{{cita_texto}}”</p>
+      <p class="autor">{{cita_autor}}</p>
+    </blockquote>
+  </header>
+
+  <section class="ensayo">
+    <div>
+      <p class="etiqueta">La idea del ensayo</p>
+      <div class="ideas">{{ideas_html}}</div>
+    </div>
+    <div class="esquema">
+      <p class="etiqueta">Del hormigón a la infraestructura ecológica</p>
+      <img src="../salidas/mapas/esquema_infra.png" alt="Esquema: río canalizado frente a humedales en terrazas">
+      <p class="shuicheng"><b>El caso del ensayo.</b> {{shuicheng_html}}</p>
+    </div>
+  </section>
+
+  <section class="propuesta">
+    <div class="mapa">
+      <img src="../salidas/mapas/mapa4_propuesta.png" alt="Mapa de la propuesta de corredor ecológico del Salí">
+    </div>
+    <div class="caso">
+      <p class="etiqueta">El caso local</p>
+      <h2>{{titulo_caso}}</h2>
+      {{datos_html}}
+      <div class="paralelo">
+        <table>
+          <tr><th>Río Shuicheng</th><th>Río Salí</th></tr>
+          {{paralelo_html}}
+        </table>
+      </div>
+      <div class="aporte">
+        <h3>Qué aporta el GIS al diseño</h3>
+        <ol>{{aporte_html}}</ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="diagnostico">
+    <div class="paso">
+      <img src="../salidas/mapas/mapa1_contexto.png" alt="Mapa de contexto">
+      <p><b>1. Entender el territorio.</b> El Salí recorre la provincia de norte a sur y atraviesa su mayor área urbana.</p>
+    </div>
+    <div class="paso">
+      <img src="../salidas/mapas/mapa2_ribera.png" alt="Mapa de cobertura de la ribera">
+      <p><b>2. Evaluar cómo funciona.</b> En {{ribera_largo}} km de río, el {{ribera_construido}} % de la franja de ribera ya está edificado.</p>
+    </div>
+    <div class="paso">
+      <img src="../salidas/mapas/mapa3_altura.png" alt="Mapa de altura sobre el cauce">
+      <p><b>3. Leer el relieve.</b> El {{altura_pct}} % de la franja está a {{umbral}} m o menos sobre el cauce: ahí se ubican los humedales.</p>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <div>
+      <h4>Límites del análisis</h4>
+      <ul>{{limites_html}}</ul>
+    </div>
+    <div>
+      <h4>Fuentes</h4>
+      <p class="fuentes">{{referencias_html}}</p>
+    </div>
+    <div class="rotulo">
+      <p class="integrantes">{{integrantes_html}}</p>
+      <p class="materia">{{materia}}</p>
+      <p class="anio">{{anio}}</p>
+    </div>
+  </footer>
+
+</main>
+</body>
+</html>

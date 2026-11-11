@@ -1,0 +1,29 @@
+{
+  "ribera": {
+    "vegetacion": 57.1,
+    "cultivo": 21.0,
+    "construido": 18.1,
+    "desnudo": 2.1,
+    "agua": 1.6,
+    "franja_m": 500,
+    "largo_km": 31.0,
+    "franja_ha": 2721
+  },
+  "altura": {
+    "pct_bajo": 12.3,
+    "pct_bajo_sin_corregir": 35.2,
+    "cota_rio_ventana_m": 30,
+    "umbral_bajo_m": 2.0,
+    "alcance_m": 500
+  },
+  "propuesta": {
+    "humedal": 108.7,
+    "bosque": 582.0,
+    "bosque_existente": 389.0,
+    "bosque_restaurar": 193.0,
+    "accesos": 19,
+    "umbral_bajo_m": 2.0,
+    "ancho_bosque_m": 100,
+    "parche_minimo_ha": 0.5
+  }
+}

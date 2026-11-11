@@ -1,0 +1,11 @@
+geopandas
+rasterio
+shapely
+scipy
+matplotlib
+matplotlib-scalebar
+requests
+python-pptx
+Pillow
+playwright
+pytest
